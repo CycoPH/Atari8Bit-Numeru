@@ -1,0 +1,42 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+#define byte unsigned char
+
+#define NUM_SPOTS	9
+
+
+#define JOYSTICK_UP	1
+#define JOYSTICK_DOWN 2
+#define JOYSTICK_LEFT 4
+#define JOYSTICK_RIGHT 8
+#define JOYSTICK_FIRE 16
+#define JOYSTICK_MOVEMENT 15
+#define JOYSTICK_ROTATE_LEFT (JOYSTICK_LEFT+JOYSTICK_FIRE)
+#define JOYSTICK_ROTATE_RIGHT (JOYSTICK_RIGHT+JOYSTICK_FIRE)
+
+#define MODE_SELECT_TILE 0
+#define MODE_PLACE_TILE 1
+
+#define MATCH_H_0R1L 	1
+#define MATCH_H_1R2L 	2
+#define MATCH_H_3R4L 	4
+#define MATCH_H_4R5L 	8
+#define MATCH_H_6R7L 	16
+#define MATCH_H_7R8L 	32
+
+#define MATCH_V_0B3T 	1
+#define MATCH_V_1B4T 	2
+#define MATCH_V_2B5T 	4
+#define MATCH_V_3B6T 	8
+#define MATCH_V_4B7T 	16
+#define MATCH_V_5B8T 	32
+
+#define MENU_OPTION_DIFFICULTY	0
+
+#define SOUND_ACTION 0
+#define SOUND_ROTATE 1
+#define SOUND_END 2
+
+
+#endif

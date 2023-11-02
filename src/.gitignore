@@ -1,0 +1,10 @@
+!bin/*.exe
+!bin/tools/*.exe
+.vscode/
+out/
+*.o
+a.txt
+gen_asm/
+*.map
+*.lbl
+*.lab
